@@ -1,0 +1,14 @@
+name: "Muster Site"
+output_dir: "."
+navbar:
+  title: "My R Markdown Site"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Projects"
+      href: projects.html
+output:
+  html_document:
+    theme: cosmo

@@ -1,0 +1,18 @@
+---
+title: "About Me"
+output: html_document
+---
+
+# About This Project
+
+This project is a simple demonstration of building a website with R Markdown.
+
+## A Simple Plot
+
+Here's an example of a plot generated directly within an R Markdown page:
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(ggplot2)
+library(plotly)
+plotly::ggplotly(ggplot(cars, aes(speed, dist)) + geom_point())
+```

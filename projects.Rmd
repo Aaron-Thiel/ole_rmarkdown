@@ -1,0 +1,31 @@
+---
+title: "Projects"
+output: html_document
+---
+
+# My Projects
+
+Here you can find a list of projects.
+
+## Project 1: Data Analysis Report
+
+This project involved analyzing a large dataset to identify key trends.
+
+### Sample Data Table for Projects
+
+```{r projects-table, echo=FALSE}
+# Create some sample project data
+project_data <- data.frame(
+  Project = c("Project Alpha", "Project Beta", "Project Gamma"),
+  Status = c("Completed", "In Progress", "Planned"),
+  StartDate = as.Date(c("2023-01-15", "2024-03-01", "2025-01-01")),
+  EndDate = as.Date(c("2023-06-30", NA, NA)),
+  Description = c("Analyzed sales data.", "Building a web app.", "Researching new algorithms.")
+)
+
+knitr::kable(project_data, caption = "My Project Overview")
+```
+
+## Project 2: Interactive Dashboard
+
+Developed an interactive dashboard for real-time data monitoring.

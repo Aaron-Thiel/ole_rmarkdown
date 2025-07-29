@@ -1,0 +1,23 @@
+---
+title: "Home"
+output: html_document
+---
+
+# Welcome to My R Markdown Site!
+
+This is the home page of my minimally working website built with `rmarkdown::render_site()`.
+
+## About This Site
+
+This site demonstrates how to create a multi-page website using R Markdown. You can navigate between pages using the links in the top navigation bar.
+
+### R Code Output Example
+
+Here's a simple R code chunk that outputs some text:
+
+```{r echo=TRUE}
+message("Hello from R Markdown!")
+x <- 1:5
+y <- x^2
+print(data.frame(x, y))
+```
